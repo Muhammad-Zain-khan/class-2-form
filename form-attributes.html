@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Inter', sans-serif">
+    <div class="form-sec">
+      <form action="code.php" method="post">
+        <h1>Form Layout</h1>
+        <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="n-b">
+      </form>
+    </div>
+    <style>
+      .form-sec {
+        width: 30%;
+        height: 500px;
+        background-color: antiquewhite;
+        border-radius: 4px;
+        margin: auto;
+        margin-top: 10%;
+        
+      }
+      .form-sec form
+      { width: calc(30% -40px);
+        padding:0px 20px;
+      }
+      .form-sec h1 {
+       
+        text-align: center;
+        padding: 10px;
+      }
+      label
+      {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      input{
+        width:70%;
+        height: 30px;
+        border-radius: 10px;
+        outline:none;
+        border: none;
+      }
+      input:focus
+      {
+        outline: 1px solid yellow;
+      }
+    </style>
+  </body>
+</html>
